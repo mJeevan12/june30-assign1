@@ -1,0 +1,16 @@
+m=[]
+n=int(input()) 
+for i in range(n):
+    x=input()
+    m.append(x) 
+t=[]
+c=0
+for i in m:
+    if i not  in t:
+      t.append(i)
+    else:
+      c=c+1
+print("count of duplicate is:", c) 
+
+
+
